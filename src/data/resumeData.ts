@@ -2,7 +2,7 @@ export const resumeData = {
   name: "Samuel Grenier",
   title: "Junior Software Engineer",
   summary:
-    "Passionate software engineer with 5+ years of experience in building scalable web applications. Expertise in React, Node.js, and cloud technologies.",
+    "Software craftsman who turns coffee into clean code. Fluent in Java, TypeScript, and data science wizardry. When not architecting elegant solutions, you'll find me diving into new tech and tackling thorny problems with a smile or throwing something together to automate my life.",
   contact: {
     email: "samuelgrenier@me.com",
     location: "Québec, Canada",
