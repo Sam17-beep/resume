@@ -85,6 +85,7 @@ export const resumeData = {
         "v0",
         "ViteJs",
       ],
+      repoUrl: "https://github.com/Sam17-beep/resume",
     },
   ],
   education: {
