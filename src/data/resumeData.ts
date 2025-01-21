@@ -33,7 +33,7 @@ export const resumeData = {
     },
     {
       company: "Bell Canada",
-      position: "Intern Stack Developer",
+      position: "Intern Software Developer",
       duration: "May 2023 - Sept. 2023",
       description:
         "Java development for Fibe TV products and Fibe TV Application. Development and maintenance of services covering a wide range of television-related functions, including live rights management, video-on-demand (VoD), video streaming, service provisioning, authentication, authorizations, and much more. Specificly worked on migrating an existing component to a new tech stack and general developpement.",
