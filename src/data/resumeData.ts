@@ -88,11 +88,18 @@ export const resumeData = {
       repoUrl: "https://github.com/Sam17-beep/resume",
     },
   ],
-  education: {
-    degree: "Bachelor's degree in Software Engineering (Génie logiciel)",
-    school: "Université Laval",
-    year: "2021 - May 2025",
-  },
+  education: [
+    {
+      degree: "Bachelor's degree in Software Engineering",
+      school: "Université Laval",
+      year: "2021 - May 2025",
+    },
+    {
+      degree: "DEC - Science informatique et mathématique",
+      school: "Cégep Limoilou",
+      year: "2019 - 2021",
+    },
+  ],
   competitions: [
     {
       name: "Compétition Québécoise d'ingénierie 2023",
@@ -120,7 +127,7 @@ export const resumeData = {
     },
     {
       name: "Compétition Québécoise d'ingénierie 2025",
-      position: "has not occured yet",
+      position: "2nd place",
       description:
         "A competition where 14 delegations compete in a given category. My team (4 people) represented l'Université Laval and competed in the programming category. We do not know the assignment in advance.",
     },
@@ -131,6 +138,6 @@ export const resumeData = {
         "The CS Games are an interuniversity competition involving students in Computer Science, Computer Engineering, and Software Engineering from across North America. Throughout an entire weekend, participants are challenged both individually and collaboratively through a series of interdisciplinary competitions designed for students from all undergraduate years.",
     },
   ],
-  accentColor: "#8A2BE2",
+  accentColor: "#D1D646",
   backgroundColor: "#0A0A0A",
 };
