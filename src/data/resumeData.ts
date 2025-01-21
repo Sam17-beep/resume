@@ -76,14 +76,14 @@ export const resumeData = {
     {
       name: "This page",
       description:
-        "Currently is a simple resume page. I wanted this page because I found my CV to be too short, I also wanted to make use of my domain. Made quickly with v0 from vercel.",
+        "Currently is a simple resume page. I wanted this page because I found my CV to be too short, I also wanted to make use of my domain. Wanting to explore AI capabilities, I made this page quickly with v0 from vercel.",
       technologies: [
         "React",
         "TypeScript",
         "Tailwind",
+        "ViteJs",
         "Vercel",
         "v0",
-        "ViteJs",
       ],
       repoUrl: "https://github.com/Sam17-beep/resume",
     },

@@ -20,35 +20,31 @@ function App() {
           contact={resumeData.contact}
           accentColor={resumeData.accentColor}
         />
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-12">
-          <div className="lg:col-span-2 space-y-12">
-            <Summary
-              summary={resumeData.summary}
-              accentColor={resumeData.accentColor}
-            />
-            <Experience
-              experience={resumeData.experience}
-              accentColor={resumeData.accentColor}
-            />
-            <Projects
-              projects={resumeData.projects}
-              accentColor={resumeData.accentColor}
-            />
-            <Competitions
-              competitions={resumeData.competitions}
-              accentColor={resumeData.accentColor}
-            />
-          </div>
-          <div className="space-y-12">
-            <Skills
-              skills={resumeData.skills}
-              accentColor={resumeData.accentColor}
-            />
-            <Education
-              education={resumeData.education}
-              accentColor={resumeData.accentColor}
-            />
-          </div>
+        <div className="flex flex-col md:mx-36">
+          <Summary
+            summary={resumeData.summary}
+            accentColor={resumeData.accentColor}
+          />
+          <Experience
+            experience={resumeData.experience}
+            accentColor={resumeData.accentColor}
+          />
+          <Skills
+            skills={resumeData.skills}
+            accentColor={resumeData.accentColor}
+          />
+          <Projects
+            projects={resumeData.projects}
+            accentColor={resumeData.accentColor}
+          />
+          <Competitions
+            competitions={resumeData.competitions}
+            accentColor={resumeData.accentColor}
+          />
+          <Education
+            education={resumeData.education}
+            accentColor={resumeData.accentColor}
+          />
         </div>
       </div>
     </div>
