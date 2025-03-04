@@ -25,7 +25,7 @@ export const resumeData = {
     "Numpy",
     "MatplotLib",
     "Docker",
-    "Noe4j",
+    "Neo4j",
     "MongoDB",
     "PostgreSQL",
     "SQL",
